@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>去茶山 - 品牌发展历程</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部导航栏 -->
+        <header class="page-header">
+            <div class="header-logo">
+                <img src="图片素材/logo.png" alt="去茶山品牌logo" class="logo-img">
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">首页</a></li>
+                    <li class="nav-item"><a href="brand-history.html" class="nav-link active">品牌发展历程</a></li>
+                    <li class="nav-item"><a href="product-show.html" class="nav-link">产品展示</a></li>
+                    <li class="nav-item"><a href="contact-us.html" class="nav-link">联系我们</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-btn"><i class="fa-solid fa-bars"></i></button>
+        </header>
+
+        <!-- 核心区域 -->
+        <section class="history-section scroll-animate">
+            <!-- 页面标题 -->
+            <h1 class="page-title">品牌发展历程</h1>
+            
+            <!-- 时间轴 -->
+            <div class="timeline-container">
+                <div class="timeline-axis">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-node" data-year="2000">
+                        <div class="node-marker">
+                            <span class="node-year">2000</span>
+                            <div class="node-dot"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-node" data-year="2008">
+                        <div class="node-marker">
+                            <span class="node-year">2008</span>
+                            <div class="node-dot"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-node" data-year="2023">
+                        <div class="node-marker">
+                            <span class="node-year">2023</span>
+                            <div class="node-dot"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-node" data-year="2024">
+                        <div class="node-marker">
+                            <span class="node-year">2024</span>
+                            <div class="node-dot"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-node" data-year="now">
+                        <div class="node-marker">
+                            <span class="node-year">至今</span>
+                            <div class="node-dot"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 内容展示区域 -->
+                <div class="timeline-content-area">
+                    <div class="content-prompt">
+                        <i class="fa-solid fa-hand-pointer"></i>
+                        <p>鼠标悬停在时间轴年份上查看详情</p>
+                    </div>
+                    
+                    <!-- 各年份内容 -->
+                    <div class="year-content" id="content-2000">
+                        <div class="content-header">
+                            <h2 class="content-year">2000年</h2>
+                            <h3 class="content-title">品牌创立</h3>
+                        </div>
+                        <div class="content-body">
+                            <div class="content-image">
+                                <img src="图片素材/2000.png" alt="2000年品牌创立" onerror="this.src='图片素材/logo.png'">
+                            </div>
+                            <div class="content-text">
+                                <p>创立于贵州贵阳，以「原产万物，万物稀奇」为愿景，致力于以新式茶饮焕发贵州产地原料的新活力。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="year-content" id="content-2008">
+                        <div class="content-header">
+                            <h2 class="content-year">2008年</h2>
+                            <h3 class="content-title">走出贵州，进军西南</h3>
+                        </div>
+                        <div class="content-body">
+                            <div class="content-image">
+                                <img src="图片素材/2008.png" alt="2008年进军西南市场" onerror="this.src='图片素材/logo.png'">
+                            </div>
+                            <div class="content-text">
+                                <p>品牌开始将目光投向省外，先后在重庆、成都开设门店，开启西南市场布局。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="year-content" id="content-2023">
+                        <div class="content-header">
+                            <h2 class="content-year">2023年</h2>
+                            <h3 class="content-title">首拓华南市场</h3>
+                        </div>
+                        <div class="content-body">
+                            <div class="content-image">
+                                <img src="图片素材/2023.png" alt="2023年深圳首店" onerror="this.src='图片素材/logo.png'">
+                            </div>
+                            <div class="content-text">
+                                <p>有着20多年历史的贵州茶饮品牌「去茶山」走出西南，首拓华南市场，将深圳作为品牌拓展的第四座城市。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="year-content" id="content-2024">
+                        <div class="content-header">
+                            <h2 class="content-year">2024年</h2>
+                            <h3 class="content-title">进军上海，布局全国</h3>
+                        </div>
+                        <div class="content-body">
+                            <div class="content-image">
+                                <img src="图片素材/2024.png" alt="2024年上海分店" onerror="this.src='图片素材/logo.png'">
+                            </div>
+                            <div class="content-text">
+                                <p>去茶山面向全国城市布局的第六站——上海分店正式开业，标志着品牌进入一线城市市场。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="year-content" id="content-now">
+                        <div class="content-header">
+                            <h2 class="content-year">至今</h2>
+                            <h3 class="content-title">品牌成就</h3>
+                        </div>
+                        <div class="content-body">
+                            <div class="content-image">
+                                <img src="图片素材/now.png" alt="当前门店分布" onerror="this.src='图片素材/logo.png'">
+                            </div>
+                            <div class="content-text">
+                                <p>目前门店已有63家！品牌在社交媒体上受到广泛关注，成为传播贵州文化的重要窗口。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 简洁表格 -->
+            <div class="simple-table-container">
+                <h2 class="table-title"><i class="fa-solid fa-table"></i> 品牌发展概览</h2>
+                <table class="simple-table">
+                    <thead>
+                        <tr>
+                            <th>年份</th>
+                            <th>品牌事件</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2000</td>
+                            <td>品牌创立于贵州贵阳</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>走出贵州，进军西南市场</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td>首拓华南市场，进驻深圳</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>进军上海，布局全国市场</td>
+                        </tr>
+                        <tr>
+                            <td>至今</td>
+                            <td>全国门店63家，传播贵州文化</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- 数据统计卡片 -->
+            <div class="stats-cards">
+                <h2 class="stats-title"><i class="fa-solid fa-chart-line"></i> 品牌发展数据</h2>
+                <div class="cards-container">
+                    <div class="stat-card">
+                        <div class="stat-number">23+</div>
+                        <div class="stat-label">品牌历史(年)</div>
+                        <div class="stat-desc">自2000年创立至今</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">63</div>
+                        <div class="stat-label">全国门店</div>
+                        <div class="stat-desc">覆盖多个省市</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6</div>
+                        <div class="stat-label">主要城市</div>
+                        <div class="stat-desc">贵阳、重庆、成都、深圳、上海等</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">社交媒体关注</div>
+                        <div class="stat-desc">成为贵州文化传播窗口</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      
+        document.addEventListener('DOMContentLoaded', function() {
+         
+            const mobileNavBtn = document.querySelector('.mobile-nav-btn');
+            const mainNav = document.querySelector('.main-nav');
+            if (mobileNavBtn && mainNav) {
+                mobileNavBtn.addEventListener('click', function() {
+                    mainNav.classList.toggle('show');
+                });
+            }
+            
+          
+            const scrollAnimateElements = document.querySelectorAll('.scroll-animate');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            scrollAnimateElements.forEach(element => {
+                observer.observe(element);
+            });
+            
+           
+            const timelineNodes = document.querySelectorAll('.timeline-node');
+            const yearContents = document.querySelectorAll('.year-content');
+            const contentPrompt = document.querySelector('.content-prompt');
+            
+           
+            yearContents.forEach(content => {
+                content.style.display = 'none';
+            });
+            
+           
+            timelineNodes.forEach(node => {
+                node.addEventListener('mouseenter', function() {
+                    const year = this.getAttribute('data-year');
+                    
+                 
+                    yearContents.forEach(content => {
+                        content.style.display = 'none';
+                    });
+                    
+                 
+                    if (contentPrompt) {
+                        contentPrompt.style.display = 'none';
+                    }
+                    
+               
+                    const targetContent = document.getElementById(`content-${year}`);
+                    if (targetContent) {
+                        targetContent.style.display = 'block';
+                    }
+                    
+                
+                    timelineNodes.forEach(n => n.classList.remove('active'));
+                    this.classList.add('active');
+                });
+  
+            });
+            
+       
+            if (timelineNodes.length > 0) {
+                const firstNode = timelineNodes[0];
+                const firstYear = firstNode.getAttribute('data-year');
+                
+            
+                yearContents.forEach(content => {
+                    content.style.display = 'none';
+                });
+                
+          
+                const firstContent = document.getElementById(`content-${firstYear}`);
+                if (firstContent) {
+                    firstContent.style.display = 'block';
+                }
+                
+          
+                if (contentPrompt) {
+                    contentPrompt.style.display = 'none';
+                }
+                
+            
+                firstNode.classList.add('active');
+            }
+        });
+    </script>
+ <!-- 页脚 -->
+     <footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-info">
+            <p>版权所有：贵州去茶山品牌管理有限公司</p>
+            <p>地址：贵州省贵阳市南明区富水南路123号荔星中心A座25层</p>
+            <p>电话：400-888-XXXX</p>
+            <p>邮箱：service@qcs-tea.com</p>
+        </div>
+
+        <div class="footer-social-section">
+            <div class="social-links">
+                <h4>关注我们</h4>
+                <ul>
+                    <li class="wechat-item">
+                        <a href="javascript:;">> 微信</a>
+                        <div class="qr-code-popup">
+                            <img src="图片素材/二维码.jpg" alt="微信二维码" onerror="this.src='图片素材/logo.png'">
+                            <p>扫码关注公众号</p>
+                        </div>
+                    </li>
+                    <li><a href="https://weibo.com/u/1918937973" target="_blank">> 微博</a></li>
+                    <li><a href="https://v.douyin.com/pgGleeYm-EU/ 5@3.com" target="_blank">> 抖音</a></li>
+                    <li><a href="https://xhslink.com/m/5a0QsldrGN0" target="_blank">> 小红书</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-brand-logo">
+                <img src="图片素材/logo.png" alt="去茶山Logo">
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-copyright">
+        <span>版权所有 © 深圳去茶山餐饮管理有限公司</span>
+        <span>粤ICP备XXXXXXXX号</span>
+    </div>
+</footer>
+</body>
+</html>
